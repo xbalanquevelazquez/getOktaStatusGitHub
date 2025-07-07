@@ -1,3 +1,6 @@
+const fs = require('fs');
+const path = require('path');
+
 const express = require('express');
 const axios = require('axios');
 // Importa la lógica de scraping que ya tienes.
@@ -8,34 +11,22 @@ const app = express();
 // Render te asignará un puerto, o usaremos el 3000 para pruebas locales.
 const PORT = process.env.PORT || 3000;
 
-async function uploadToJSONBin(data) {
-  const BIN_ID = process.env.JSONBIN_BIN_ID;
-  const API_KEY = process.env.JSONBIN_API_KEY;
-
-  const url = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
-  try {
-    const res = await axios.put(url, data, {
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Master-Key': API_KEY,
-        'X-Bin-Private': false
-      }
-    });
-
-    console.log(`✅ Datos subidos exitosamente. Status: ${res.status}`);
-  } catch (err) {
-    console.error('❌ Error al subir a JSONBin:', err.response?.data || err.message);
-  }
-}
-
 (async () => {
   try {
     const data = await scrapeOktaStatusLogic();
-    console.log('Scraping successful.');
-    await uploadToJSONBin({ updatedAt: new Date().toISOString(), data });
-  } catch (error) {
-    console.error('❌ Error en scraping:', error);
+
+    const jsonData = {
+      updatedAt: new Date().toISOString(),
+      data
+    };
+
+    const outputPath = path.join(__dirname, 'public', 'oktaStatus.json');
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, JSON.stringify(jsonData, null, 2));
+
+    console.log('✅ JSON generado y guardado en public/oktaStatus.json');
+  } catch (err) {
+    console.error('❌ Error en scraping:', err);
     process.exit(1);
   }
 })();
-
