@@ -20,11 +20,11 @@ const PORT = process.env.PORT || 3000;
       data
     };
 
-    const outputPath = path.join(__dirname, 'public', 'oktaStatus.json');
+    const outputPath = path.join(__dirname, 'docs', 'oktaStatus.json');
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
     fs.writeFileSync(outputPath, JSON.stringify(jsonData, null, 2));
 
-    console.log('✅ JSON generado y guardado en public/oktaStatus.json');
+    console.log('✅ JSON generado y guardado en docs/oktaStatus.json');
   } catch (err) {
     console.error('❌ Error en scraping:', err);
     process.exit(1);

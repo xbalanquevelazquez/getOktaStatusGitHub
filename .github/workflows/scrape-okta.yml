@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name "xbalanquevelazquez"
           git config user.email "xbalanque.velazquez@gmail.com"
-          git add public/oktaStatus.json
+          git add docs/oktaStatus.json
           git commit -m "update: oktaStatus.json [auto]" || echo "No changes to commit"
           git push
