@@ -5,6 +5,9 @@ on:
     - cron: '*/15 * * * *'  # cada 30 minutos
   workflow_dispatch:
 
+permissions:
+  contents: write
+  
 jobs:
   scrape:
     runs-on: ubuntu-latest
