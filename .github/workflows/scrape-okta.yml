@@ -25,8 +25,8 @@ jobs:
 
       - name: Commit and push JSON
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "xbalanquevelazquez"
+          git config user.email "xbalanque.velazquez@gmail.com"
           git add public/oktaStatus.json
           git commit -m "update: oktaStatus.json [auto]" || echo "No changes to commit"
           git push
