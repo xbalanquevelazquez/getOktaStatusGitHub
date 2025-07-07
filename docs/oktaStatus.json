@@ -1,0 +1,98 @@
+{
+  "updatedAt": "2025-07-07T23:39:53.616Z",
+  "data": {
+    "services": [
+      {
+        "name": "Okta Services",
+        "status": "Operational",
+        "nivel": 0,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Core Platform",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Access Gateway",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Advanced Server Access",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "API Services",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "MFA",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Single Sign-On",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Workflows",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "OIG Access Certifications",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "OIG Access Requests",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "OIG Reporting",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Privileged Access",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Identity Threat Protection",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "ISPM",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Third Party",
+        "status": "Operational",
+        "nivel": 0,
+        "statusIcon": "icon-Success"
+      }
+    ],
+    "timestamp": "2025-07-07T23:39:49.871Z"
+  }
+}
