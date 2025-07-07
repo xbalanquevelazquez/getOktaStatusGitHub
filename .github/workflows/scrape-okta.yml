@@ -9,18 +9,18 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Clonar repo
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
+      - name: Instalar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Install dependencies
+      - name: Instalar dependencias
         run: npm ci
 
-      - name: Run scraper
+      - name: Ejecutar scraper y subir JSON
         run: npm start
 
       - name: Commit and push JSON
