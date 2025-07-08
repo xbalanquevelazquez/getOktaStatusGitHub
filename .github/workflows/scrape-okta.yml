@@ -2,12 +2,12 @@ name: Scrape Okta Status and Commit JSON
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # cada 30 minutos
+    - cron: '*/30 * * * *'  # cada 30 minutos
   workflow_dispatch:
 
 permissions:
   contents: write
-  
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
