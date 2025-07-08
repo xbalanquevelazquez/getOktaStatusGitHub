@@ -118,6 +118,8 @@ async function scrapeOktaStatusLogic() {
         services.push(categories[1]);
 
         scrapedData.services = services;
+        scrapedData.todayStatus = todayStatus;
+        
 
     } catch (error) {
         console.error("[ERROR] Error durante el scraping:", error);
