@@ -58,13 +58,15 @@ async function scrapeOktaStatusLogic() {
             const todayIconEl = $(element).find('.today_icon');
             let clasesTodayIcon = $(todayIconEl).attr('class').split(' ');
             const todaySystemStatus = $(element).find('.system__status_today_status').text().trim();
+            const todaySystemLastUpdate = $(element).find('.system__status_today_update').text().trim();
             const todayIcon = clasesTodayIcon[0];
-
+            
             todayStatus.push({
                     name: 'todayStatus',
                     status: todaySystemStatus,
                     nivel: 0,
-                    statusIcon : todayIcon
+                    statusIcon : todayIcon,
+                    lastUpdate : todaySystemLastUpdate
                 });
             console.error('[INFO] todaySystemStatus: '+todaySystemStatus);
             console.error('[INFO] todayIcon: '+todayIcon);
