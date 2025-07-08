@@ -2,7 +2,7 @@ name: Scrape Okta Status and Commit JSON
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # cada 30 minutos
+    - cron: "*/15 * * * *"  # Cada 15 minutos
   workflow_dispatch:
 
 permissions:
@@ -25,11 +25,12 @@ jobs:
 
       - name: Ejecutar scraper y subir JSON
         run: npm start
+        
 
       - name: Commit and push JSON
         run: |
           git config user.name "xbalanquevelazquez"
           git config user.email "xbalanque.velazquez@gmail.com"
-          git add docs/oktaStatus.json
+          git add docs/oktaStatus.json docs/history.json
           git commit -m "update: oktaStatus.json [auto]" || echo "No changes to commit"
           git push

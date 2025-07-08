@@ -24,6 +24,27 @@ const PORT = process.env.PORT || 3000;
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
     fs.writeFileSync(outputPath, JSON.stringify(jsonData, null, 2));
 
+    const historyPath = path.join(__dirname, 'docs', 'history.json');
+
+    let history = [];
+    try {
+      history = JSON.parse(fs.readFileSync(historyPath, 'utf-8'));
+    } catch (err) {
+      console.log('No existing history, creating new one.');
+    }
+
+    // Agregar entrada de hora actual (en UTC)
+    history.push({
+      timestamp: new Date().toISOString()
+    });
+
+    // Mantener solo los últimos 100 registros
+    history = history.slice(-100);
+
+    // Guardar historial
+    fs.writeFileSync(historyPath, JSON.stringify(history, null, 2), 'utf-8');
+    
+
     console.log('✅ JSON generado y guardado en docs/oktaStatus.json');
   } catch (err) {
     console.error('❌ Error en scraping:', err);
