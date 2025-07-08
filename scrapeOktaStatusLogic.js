@@ -7,6 +7,7 @@ async function scrapeOktaStatusLogic() {
 
     // Objeto para almacenar toda la información que se exportará como JSON
     const scrapedData = {
+        todayStatus: [],
         services: [],
         timestamp: new Date().toISOString() // Añade una marca de tiempo de cuándo se hizo el scraping
     };
@@ -50,6 +51,7 @@ async function scrapeOktaStatusLogic() {
         console.error('[INFO] cargado HTML en cheerio');
 
         const categories = [];
+        const todayStatus = [];
         const services = [];
         
         $('.todayincident').each((k,element) => {
@@ -57,9 +59,17 @@ async function scrapeOktaStatusLogic() {
             let clasesTodayIcon = $(todayIconEl).attr('class').split(' ');
             const todaySystemStatus = $(element).find('.system__status_today_status').text().trim();
             const todayIcon = clasesTodayIcon[0];
+
+            todayStatus.push({
+                    name: 'todayStatus',
+                    status: todaySystemStatus,
+                    nivel: 0,
+                    statusIcon : todayIcon
+                });
             console.error('[INFO] todaySystemStatus: '+todaySystemStatus);
             console.error('[INFO] todayIcon: '+todayIcon);
             console.error(' -------- ');
+
         });
 
         // Coloco la primeraa categoría
@@ -68,7 +78,7 @@ async function scrapeOktaStatusLogic() {
             const serviceName = $(element).find('.sub_service_category_status_name').text().trim();
             let clasesIcon = $(element).find('.sub_service_item_status_icon').attr('class').split(' ');
             const serviceStatus = $(element).find('.sub_service_category_status_category').text().trim();
-            const nivel = 0;
+            const nivel = 1;
             const statusIcon = clasesIcon[0];
 
             if (serviceName && serviceStatus) { // Asegurarse de que se extrajo información
@@ -90,7 +100,7 @@ async function scrapeOktaStatusLogic() {
             const serviceName = $(element).find('.sub_service_item_status_name').text().trim();
             let clasesIcon = $(element).find('.sub_service_item_status_icon').attr('class').split(' ');
             const serviceStatus = $(element).find('.sub_service_item_status_category').text().trim();
-            const nivel = 1;
+            const nivel = 2;
             const statusIcon = clasesIcon[0];
 
             if (serviceName && serviceStatus) { // Asegurarse de que se extrajo información
