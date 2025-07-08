@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2025-07-08T02:30:55.562Z",
+  "updatedAt": "2025-07-08T02:38:23.491Z",
   "data": {
-    "todayStatus": [],
+    "todayStatus": [
+      {
+        "name": "todayStatus",
+        "status": "System Operational",
+        "nivel": 0,
+        "statusIcon": "icon-Success"
+      }
+    ],
     "services": [
       {
         "name": "Okta Services",
@@ -94,6 +101,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2025-07-08T02:30:49.374Z"
+    "timestamp": "2025-07-08T02:38:18.216Z"
   }
 }
