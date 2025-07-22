@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2025-07-22T18:35:46.427Z",
+  "updatedAt": "2025-07-22T19:00:16.952Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "System Operational",
+        "status": "Service Disruption",
         "nivel": 0,
-        "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 11:35am PDT"
+        "statusIcon": "icon-Error",
+        "lastUpdate": "Last updated 11:49am PDT"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Operational",
+        "status": "Service Disruption",
         "nivel": 1,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Error"
       },
       {
         "name": "Core Platform",
-        "status": "Operational",
+        "status": "Service Disruption",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Error"
       },
       {
         "name": "Access Gateway",
@@ -102,6 +102,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2025-07-22T18:35:42.525Z"
+    "timestamp": "2025-07-22T19:00:09.352Z"
   }
 }
