@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-03T20:23:14.655Z",
+  "updatedAt": "2025-10-03T20:40:18.112Z",
   "data": {
     "todayStatus": [
       {
@@ -7,7 +7,7 @@
         "status": "Service Degradation",
         "nivel": 0,
         "statusIcon": "icon-Alert",
-        "lastUpdate": "Last updated 2:31pm PDT"
+        "lastUpdate": "Last updated 1:23pm PDT"
       }
     ],
     "services": [
@@ -102,6 +102,6 @@
         "statusIcon": "icon-Alert"
       }
     ],
-    "timestamp": "2025-10-03T20:23:11.059Z"
+    "timestamp": "2025-10-03T20:40:13.890Z"
   }
 }
