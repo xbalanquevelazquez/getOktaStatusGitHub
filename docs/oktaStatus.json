@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-10-09T15:51:38.213Z",
+  "updatedAt": "2025-10-09T16:29:55.011Z",
   "data": {
     "todayStatus": [
       {
@@ -96,12 +96,18 @@
         "statusIcon": "icon-Success"
       },
       {
+        "name": "Okta Aerial",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
         "name": "Third Party",
         "status": "Service Degradation",
         "nivel": 1,
         "statusIcon": "icon-Alert"
       }
     ],
-    "timestamp": "2025-10-09T15:51:34.217Z"
+    "timestamp": "2025-10-09T16:29:50.126Z"
   }
 }
