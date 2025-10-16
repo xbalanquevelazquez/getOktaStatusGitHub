@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-10-16T19:16:28.196Z",
+  "updatedAt": "2025-10-16T19:38:49.802Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "Service Disruption",
+        "status": "System Operational",
         "nivel": 0,
-        "statusIcon": "icon-Error",
-        "lastUpdate": "Last updated 5:51pm PDT"
+        "statusIcon": "icon-Success",
+        "lastUpdate": "Last updated 12:38pm PDT"
       }
     ],
     "services": [
@@ -103,11 +103,11 @@
       },
       {
         "name": "Third Party",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 1,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2025-10-16T19:16:23.362Z"
+    "timestamp": "2025-10-16T19:38:45.644Z"
   }
 }
