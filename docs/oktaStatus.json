@@ -1,105 +1,105 @@
 {
-  "updatedAt": "2025-10-20T07:59:30.476Z",
+  "updatedAt": "2025-10-20T08:37:34.885Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "System Operational",
+        "status": "Service Degradation",
         "nivel": 0,
-        "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 12:59am PDT"
+        "statusIcon": "icon-Alert",
+        "lastUpdate": "Last updated 1:02am PDT"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 1,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Core Platform",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Access Gateway",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Advanced Server Access",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "API Services",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "MFA",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Single Sign-On",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Workflows",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "OIG Access Certifications",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "OIG Access Requests",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "OIG Reporting",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Privileged Access",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Identity Threat Protection",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "ISPM",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Okta Aerial",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       },
       {
         "name": "Third Party",
@@ -108,6 +108,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2025-10-20T07:59:27.059Z"
+    "timestamp": "2025-10-20T08:37:29.913Z"
   }
 }
