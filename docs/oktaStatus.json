@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-10-21T01:46:46.059Z",
+  "updatedAt": "2025-10-21T03:07:51.500Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "Service Degradation",
+        "status": "System Operational",
         "nivel": 0,
-        "statusIcon": "icon-Alert",
-        "lastUpdate": "Last updated 6:00pm PDT"
+        "statusIcon": "icon-Success",
+        "lastUpdate": "Last updated 7:19pm PDT"
       }
     ],
     "services": [
@@ -103,11 +103,11 @@
       },
       {
         "name": "Third Party",
-        "status": "Service Degradation",
+        "status": "Operational",
         "nivel": 1,
-        "statusIcon": "icon-Alert"
+        "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2025-10-21T01:46:43.153Z"
+    "timestamp": "2025-10-21T03:07:48.082Z"
   }
 }
