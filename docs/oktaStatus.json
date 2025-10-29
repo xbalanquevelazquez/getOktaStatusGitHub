@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2025-10-29T18:35:45.193Z",
+  "updatedAt": "2025-10-29T18:56:11.823Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "System Operational",
+        "status": "Service Degradation",
         "nivel": 0,
-        "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 11:35am PDT"
+        "statusIcon": "icon-Alert",
+        "lastUpdate": "Last updated 11:40am PDT"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 1,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-ThirdImpact"
       },
       {
         "name": "Core Platform",
@@ -37,9 +37,9 @@
       },
       {
         "name": "API Services",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-ThirdImpact"
       },
       {
         "name": "MFA",
@@ -103,11 +103,11 @@
       },
       {
         "name": "Third Party",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 1,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       }
     ],
-    "timestamp": "2025-10-29T18:35:40.663Z"
+    "timestamp": "2025-10-29T18:56:07.529Z"
   }
 }
