@@ -1,105 +1,105 @@
 {
-  "updatedAt": "2025-12-03T08:33:49.769Z",
+  "updatedAt": "2025-12-03T09:00:03.350Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "Service Disruption",
+        "status": "System Operational",
         "nivel": 0,
-        "statusIcon": "icon-Error",
-        "lastUpdate": "Last updated 12:13am PST"
+        "statusIcon": "icon-Success",
+        "lastUpdate": "Last updated 12:41am PST"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 1,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Core Platform",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Access Gateway",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Advanced Server Access",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "API Services",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "MFA",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Single Sign-On",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Workflows",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "OIG Access Certifications",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "OIG Access Requests",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "OIG Reporting",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Privileged Access",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Identity Threat Protection",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "ISPM",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Okta Aerial",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Third Party",
@@ -108,6 +108,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2025-12-03T08:33:45.813Z"
+    "timestamp": "2025-12-03T08:59:59.368Z"
   }
 }
