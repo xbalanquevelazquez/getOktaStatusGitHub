@@ -1,8 +1,113 @@
 {
-  "updatedAt": "2025-12-03T17:53:39.683Z",
+  "updatedAt": "2025-12-03T18:37:11.049Z",
   "data": {
-    "todayStatus": [],
-    "services": [],
-    "timestamp": "2025-12-03T17:53:26.086Z"
+    "todayStatus": [
+      {
+        "name": "todayStatus",
+        "status": "System Operational",
+        "nivel": 0,
+        "statusIcon": "icon-Success",
+        "lastUpdate": "Last updated 8:58am PST"
+      }
+    ],
+    "services": [
+      {
+        "name": "Okta Services",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Core Platform",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Access Gateway",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Advanced Server Access",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "API Services",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "MFA",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Single Sign-On",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Workflows",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "OIG Access Certifications",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "OIG Access Requests",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "OIG Reporting",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Privileged Access",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Identity Threat Protection",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "ISPM",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Okta Aerial",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
+        "name": "Third Party",
+        "status": "Operational",
+        "nivel": 1,
+        "statusIcon": "icon-Success"
+      }
+    ],
+    "timestamp": "2025-12-03T18:37:07.137Z"
   }
 }
