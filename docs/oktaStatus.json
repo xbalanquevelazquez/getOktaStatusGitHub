@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-18T19:52:44.531Z",
+  "updatedAt": "2025-12-18T20:25:02.079Z",
   "data": {
     "todayStatus": [
       {
@@ -7,7 +7,7 @@
         "status": "System Operational",
         "nivel": 0,
         "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 11:52am PST"
+        "lastUpdate": "Last updated 12:25pm PST"
       }
     ],
     "services": [
@@ -102,12 +102,18 @@
         "statusIcon": "icon-Success"
       },
       {
+        "name": "Realms and Partner Portal",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
         "name": "Third Party",
         "status": "Operational",
         "nivel": 1,
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2025-12-18T19:52:41.226Z"
+    "timestamp": "2025-12-18T20:24:59.051Z"
   }
 }
