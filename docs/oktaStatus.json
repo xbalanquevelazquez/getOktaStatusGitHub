@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T21:56:01.463Z",
+  "updatedAt": "2026-03-12T22:32:12.634Z",
   "data": {
     "todayStatus": [
       {
@@ -7,7 +7,7 @@
         "status": "System Operational",
         "nivel": 0,
         "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 2:55pm PDT"
+        "lastUpdate": "Last updated 3:32pm PDT"
       }
     ],
     "services": [
@@ -108,12 +108,18 @@
         "statusIcon": "icon-Success"
       },
       {
+        "name": "Okta for AI Agents",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
         "name": "Third Party",
         "status": "Operational",
         "nivel": 1,
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2026-03-12T21:55:58.356Z"
+    "timestamp": "2026-03-12T22:32:09.467Z"
   }
 }
