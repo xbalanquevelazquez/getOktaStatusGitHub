@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-04-13T23:49:33.238Z",
+  "updatedAt": "2026-04-14T02:54:38.944Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "Service Disruption",
+        "status": "System Operational",
         "nivel": 0,
-        "statusIcon": "icon-Error",
-        "lastUpdate": "Last updated 2:29pm PDT"
+        "statusIcon": "icon-Success",
+        "lastUpdate": "Last updated 5:26pm PDT"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 1,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Core Platform",
@@ -67,9 +67,9 @@
       },
       {
         "name": "OIG Access Requests",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "OIG Reporting",
@@ -120,6 +120,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2026-04-13T23:49:29.650Z"
+    "timestamp": "2026-04-14T02:54:35.340Z"
   }
 }
