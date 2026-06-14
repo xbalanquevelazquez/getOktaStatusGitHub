@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T13:14:25.724Z",
+  "updatedAt": "2026-06-14T15:21:05.449Z",
   "data": {
     "todayStatus": [
       {
@@ -7,7 +7,7 @@
         "status": "System Operational",
         "nivel": 0,
         "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 6:14am PDT"
+        "lastUpdate": "Last updated 8:21am PDT"
       }
     ],
     "services": [
@@ -120,6 +120,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2026-06-14T13:14:22.245Z"
+    "timestamp": "2026-06-14T15:21:01.602Z"
   }
 }
