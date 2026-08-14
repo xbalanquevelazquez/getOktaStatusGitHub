@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-14T14:41:11.265Z",
+  "updatedAt": "2026-08-14T15:34:29.273Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "System Operational",
+        "status": "Service Degradation",
         "nivel": 0,
-        "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 7:41am PDT"
+        "statusIcon": "icon-Alert",
+        "lastUpdate": "Last updated 8:29am PDT"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 1,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-ThirdImpact"
       },
       {
         "name": "Core Platform",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-ThirdImpact"
       },
       {
         "name": "Access Gateway",
@@ -43,9 +43,9 @@
       },
       {
         "name": "MFA",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 2,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-ThirdImpact"
       },
       {
         "name": "Single Sign-On",
@@ -115,11 +115,11 @@
       },
       {
         "name": "Third Party",
-        "status": "Operational",
+        "status": "Service Degradation",
         "nivel": 1,
-        "statusIcon": "icon-Success"
+        "statusIcon": "icon-Alert"
       }
     ],
-    "timestamp": "2026-08-14T14:41:07.969Z"
+    "timestamp": "2026-08-14T15:34:25.744Z"
   }
 }
