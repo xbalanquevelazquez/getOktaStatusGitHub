@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-09-18T21:42:25.356Z",
+  "updatedAt": "2026-09-18T23:36:47.096Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "Service Disruption",
+        "status": "System Operational",
         "nivel": 0,
-        "statusIcon": "icon-Error",
-        "lastUpdate": "Last updated 8:28am PDT"
+        "statusIcon": "icon-Success",
+        "lastUpdate": "Last updated 4:36pm PDT"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 1,
-        "statusIcon": "icon-ThirdImpact"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Core Platform",
@@ -49,9 +49,9 @@
       },
       {
         "name": "Single Sign-On",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-ThirdImpact"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Workflows",
@@ -115,11 +115,11 @@
       },
       {
         "name": "Third Party",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 1,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2026-09-18T21:42:22.035Z"
+    "timestamp": "2026-09-18T23:36:43.701Z"
   }
 }
