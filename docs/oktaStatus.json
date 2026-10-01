@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T18:48:32.315Z",
+  "updatedAt": "2026-10-01T23:02:04.345Z",
   "data": {
     "todayStatus": [
       {
@@ -7,7 +7,7 @@
         "status": "Service Disruption",
         "nivel": 0,
         "statusIcon": "icon-Error",
-        "lastUpdate": "Last updated 10:45am PDT"
+        "lastUpdate": "Last updated 12:38pm PDT"
       }
     ],
     "services": [
@@ -120,6 +120,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2026-10-01T18:48:28.698Z"
+    "timestamp": "2026-10-01T23:02:01.482Z"
   }
 }
