@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-10-01T23:02:04.345Z",
+  "updatedAt": "2026-10-02T02:17:09.364Z",
   "data": {
     "todayStatus": [
       {
         "name": "todayStatus",
-        "status": "Service Disruption",
+        "status": "System Operational",
         "nivel": 0,
-        "statusIcon": "icon-Error",
-        "lastUpdate": "Last updated 12:38pm PDT"
+        "statusIcon": "icon-Success",
+        "lastUpdate": "Last updated 4:59pm PDT"
       }
     ],
     "services": [
       {
         "name": "Okta Services",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 1,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Core Platform",
@@ -55,9 +55,9 @@
       },
       {
         "name": "Workflows",
-        "status": "Service Disruption",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-Error"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "OIG Access Certifications",
@@ -120,6 +120,6 @@
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2026-10-01T23:02:01.482Z"
+    "timestamp": "2026-10-02T02:17:06.642Z"
   }
 }
