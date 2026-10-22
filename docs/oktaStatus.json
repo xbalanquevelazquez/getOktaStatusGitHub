@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T11:25:20.648Z",
+  "updatedAt": "2026-10-22T15:58:47.822Z",
   "data": {
     "todayStatus": [
       {
@@ -7,7 +7,7 @@
         "status": "System Operational",
         "nivel": 0,
         "statusIcon": "icon-Success",
-        "lastUpdate": "Last updated 4:25am PDT"
+        "lastUpdate": "Last updated 8:58am PDT"
       }
     ],
     "services": [
@@ -114,12 +114,18 @@
         "statusIcon": "icon-Success"
       },
       {
+        "name": "Okta Managed MCP Server",
+        "status": "Operational",
+        "nivel": 2,
+        "statusIcon": "icon-Success"
+      },
+      {
         "name": "Third Party",
         "status": "Operational",
         "nivel": 1,
         "statusIcon": "icon-Success"
       }
     ],
-    "timestamp": "2026-10-22T11:25:16.067Z"
+    "timestamp": "2026-10-22T15:58:44.903Z"
   }
 }
