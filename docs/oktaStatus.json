@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T13:54:45.561Z",
+  "updatedAt": "2026-10-30T19:02:58.935Z",
   "data": {
     "todayStatus": [
       {
@@ -7,7 +7,7 @@
         "status": "Service Degradation",
         "nivel": 0,
         "statusIcon": "icon-Alert",
-        "lastUpdate": "Last updated 8:11am PDT"
+        "lastUpdate": "Last updated 4:05pm PDT"
       }
     ],
     "services": [
@@ -49,9 +49,9 @@
       },
       {
         "name": "Single Sign-On",
-        "status": "Service Degradation",
+        "status": "Operational",
         "nivel": 2,
-        "statusIcon": "icon-ThirdImpact"
+        "statusIcon": "icon-Success"
       },
       {
         "name": "Workflows",
@@ -126,6 +126,6 @@
         "statusIcon": "icon-Alert"
       }
     ],
-    "timestamp": "2026-10-30T13:54:42.774Z"
+    "timestamp": "2026-10-30T19:02:55.994Z"
   }
 }
